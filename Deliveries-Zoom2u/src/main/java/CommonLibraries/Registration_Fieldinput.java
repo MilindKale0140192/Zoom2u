@@ -4,9 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import Controller.LaunchBrowser;
 import Controller.LaunchBrowser_inCrossBrowser;
 
-public class Registration_Fieldinput extends LaunchBrowser_inCrossBrowser{
+public class Registration_Fieldinput extends LaunchBrowser{
 	
 	Registration obj1=new Registration();
 	public void FieldsRequiredForRegistration(String Name,String LName,int PhoneNumber,String Email,String Password,String ConfirmPwd) throws InterruptedException{

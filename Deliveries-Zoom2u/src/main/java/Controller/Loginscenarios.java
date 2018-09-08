@@ -12,7 +12,7 @@ import CommonLibraries.Registration;
 import CommonLibraries.URL_Staging;
 import DeliveriesMessages.LoginMessages;
 
-public class Loginscenarios extends LaunchBrowser_inCrossBrowser {
+public class Loginscenarios extends LaunchBrowser {
     
       Login obj=new Login();
       URL_Staging url=new URL_Staging();
@@ -27,10 +27,10 @@ public class Loginscenarios extends LaunchBrowser_inCrossBrowser {
 		  System.out.println("L1:Login Success");
 		  Thread.sleep(10000);
           driver.findElement(By.xpath(obj.logoutlocator())).click();
-		  if(browser=="Firefox"){
+		 /* if(browser=="Firefox"){
 			  Thread.sleep(10000);
 			  driver.findElement(By.xpath(obj.alreadyLoggedoutpopup())).click();
-		  }
+		  }*/
 		  System.out.println("L1: Login with Valid Credentials 1st Test case Completed");
 		  System.out.println("...........................................................................................................");
 	

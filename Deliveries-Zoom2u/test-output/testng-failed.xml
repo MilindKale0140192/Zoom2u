@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="Test_Zoom2u.Login_test">
+        <methods>
+          <include name="L3"/>
+          <include name="L2"/>
+          <include name="L1"/>
+          <include name="L4"/>
+          <include name="afterTest"/>
+          <include name="L9"/>
+          <include name="L5"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Test_Zoom2u.Login_test -->
+      <class name="Test_Zoom2u.ForgotPwd_test">
+        <methods>
+          <include name="FP1"/>
+          <include name="FP7"/>
+          <include name="FP9"/>
+          <include name="FP6"/>
+          <include name="FP3"/>
+          <include name="afterTest"/>
+          <include name="FP8"/>
+          <include name="beforeTest"/>
+          <include name="FP5"/>
+          <include name="FP2"/>
+          <include name="FP4"/>
+        </methods>
+      </class> <!-- Test_Zoom2u.ForgotPwd_test -->
+      <class name="Test_Zoom2u.Registration_test">
+        <methods>
+          <include name="R3"/>
+          <include name="R8"/>
+          <include name="R5"/>
+          <include name="R2"/>
+          <include name="R9"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="R4"/>
+          <include name="R1"/>
+        </methods>
+      </class> <!-- Test_Zoom2u.Registration_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

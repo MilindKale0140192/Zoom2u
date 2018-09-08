@@ -19,7 +19,7 @@ import DeliveriesMessages.ForgotPassword;
 //import javafx.scene.control.Alert;
 
 
-public class ForgotPwd_Scenarios extends LaunchBrowser_inCrossBrowser{
+public class ForgotPwd_Scenarios extends LaunchBrowser{
 
 	ForgotPwdLocators forgotpwdlocobj = new ForgotPwdLocators();
 	URL_Staging urlobj = new URL_Staging();

@@ -22,7 +22,7 @@ import DeliveriesMessages.RegistrationMessages;
 import RequiredClassesfor_EachModule.Emailgeneration;
 
 
-public class RegistrationScenarios extends LaunchBrowser_inCrossBrowser{
+public class RegistrationScenarios extends LaunchBrowser{
 	
 	Registration obj1 = new Registration();
 	Login obj2 = new Login();
@@ -89,7 +89,7 @@ public class RegistrationScenarios extends LaunchBrowser_inCrossBrowser{
 		Thread.sleep(10000);
 		driver.findElement(By.xpath(menuobj.MyProfileLocator())).click();
 		//Thread.sleep(10000);
-		//driver.navigate().refresh();
+		driver.navigate().refresh();
 		element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(Myprofileobj.FNamefieldLocator())));
 		String FNamefield=driver.findElement(By.xpath(Myprofileobj.FNamefieldLocator())).getAttribute("value");
 		System.out.println(FNamefield);
@@ -114,10 +114,10 @@ public class RegistrationScenarios extends LaunchBrowser_inCrossBrowser{
 		Thread.sleep(10000);
 		driver.findElement(By.xpath(obj2.logoutlocator())).click();
 		Thread.sleep(10000);
-		  if(browser=="Firefox"){
+		/*  if(browser=="Firefox"){
 			  Thread.sleep(10000);
 			  driver.findElement(By.xpath(obj2.alreadyLoggedoutpopup())).click();
-		  }
+		  }*/
 		  System.out.println("R2:Register without company name test case completed (2nd Registration test case)");
 			System.out.println("...........................................................................................................");
 		  

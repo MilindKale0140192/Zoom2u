@@ -8,11 +8,13 @@ import Controller.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-public class Login_test extends LaunchBrowser_inCrossBrowser {
+public class Login_test extends LaunchBrowser{
    LaunchBrowser_inCrossBrowser obj1=new LaunchBrowser_inCrossBrowser();
    static Loginscenarios obj2=new Loginscenarios();
    
@@ -75,10 +77,10 @@ public class Login_test extends LaunchBrowser_inCrossBrowser {
   @BeforeTest
   public void beforeTest() throws Exception {
 	  
-	 LaunchBrowser_inCrossBrowser.OpenBrowser("Chrome", "61*64", "Windows 7 64-bit", "LoginModule_Test");
+	 //LaunchBrowser_inCrossBrowser.OpenBrowser("Chrome", "61*64", "Windows 7 64-bit", "LoginModule_Test");
 	 //LaunchBrowser_inCrossBrowser.OpenBrowser("Firefox", "55*64", "Windows 7 64-bit", "LoginModule_Test");
 	 //LaunchBrowser_inCrossBrowser.OpenBrowser("Internet Explorer", "11", "Windows 7 64-bit", "LoginModule_Test");
-	  
+	 launchbrowser();
 	  
   }
   
@@ -86,7 +88,7 @@ public class Login_test extends LaunchBrowser_inCrossBrowser {
   public void afterTest() throws InterruptedException {
 	  
 	  
-	  LaunchBrowser_inCrossBrowser.driverclose();
+	driverclose();
   }
 
 
