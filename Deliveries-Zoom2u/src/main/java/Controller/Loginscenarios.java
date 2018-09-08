@@ -14,10 +14,11 @@ import DeliveriesMessages.LoginMessages;
 
 public class Loginscenarios extends LaunchBrowser {
     
-      Login obj=new Login();
+      static Login obj=new Login();
       URL_Staging url=new URL_Staging();
       LoginMessages LoginmessagesDisplay = new LoginMessages();
-	  public void loginwithvalidcredentials(String email, String password) throws InterruptedException {
+     // WebElement element;
+	  public static void loginwithvalidcredentials(String email, String password) throws InterruptedException {
 		  
 		  System.out.println("...........................................................................................................");
 		  System.out.println("L1 :Login with valid credentials 1st test case Starting........");
@@ -39,9 +40,9 @@ public class Loginscenarios extends LaunchBrowser {
 	  public void loginwithinvalidcredentials(String email,String password) throws InterruptedException{
 		  System.out.println("...........................................................................................................");
 		  System.out.println("L4:Login with invalid username/pwd 4th test case starting.....");
-		  WebElement element;
+		 WebElement element;
 		  driver.navigate().refresh();
-		  element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.emaillocator())));
+		  element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.focusloginpage())));
 		  driver.findElement(By.xpath(obj.emaillocator())).sendKeys(email);
 		  driver.findElement(By.xpath(obj.pwdlocator())).sendKeys(password);
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
