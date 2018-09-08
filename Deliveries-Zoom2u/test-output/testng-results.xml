@@ -1,53 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="487688" started-at="2018-09-06T14:15:56Z" finished-at="2018-09-06T14:24:03Z">
+  <suite name="Default suite" duration-ms="153544" started-at="2018-09-08T11:14:02Z" finished-at="2018-09-08T11:16:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="487688" started-at="2018-09-06T14:15:56Z" finished-at="2018-09-06T14:24:03Z">
-      <class name="Test_Zoom2u.Registration_test">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="beforeTest" is-config="true" duration-ms="32383" started-at="2018-09-06T19:45:56Z" finished-at="2018-09-06T19:46:28Z">
+    <test name="Default test" duration-ms="153544" started-at="2018-09-08T11:14:02Z" finished-at="2018-09-08T11:16:36Z">
+      <class name="Test_Zoom2u.Login_test">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="beforeTest" is-config="true" duration-ms="22164" started-at="2018-09-08T16:44:02Z" finished-at="2018-09-08T16:44:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="R1()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R1" duration-ms="16113" started-at="2018-09-06T19:46:28Z" finished-at="2018-09-06T19:46:44Z">
+        <test-method status="PASS" signature="L8()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L8" duration-ms="1317" started-at="2018-09-08T16:44:24Z" finished-at="2018-09-08T16:44:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R1 -->
-        <test-method status="PASS" signature="R2()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R2" duration-ms="87665" started-at="2018-09-06T19:46:44Z" finished-at="2018-09-06T19:48:12Z">
+        </test-method> <!-- L8 -->
+        <test-method status="PASS" signature="L1()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L1" duration-ms="20782" started-at="2018-09-08T16:44:26Z" finished-at="2018-09-08T16:44:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R2 -->
-        <test-method status="PASS" signature="R3()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R3" duration-ms="20732" started-at="2018-09-06T19:48:12Z" finished-at="2018-09-06T19:48:33Z">
+        </test-method> <!-- L1 -->
+        <test-method status="PASS" signature="L4()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L4" duration-ms="12203" started-at="2018-09-08T16:44:46Z" finished-at="2018-09-08T16:44:59Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R3 -->
-        <test-method status="PASS" signature="R4()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R4" duration-ms="153022" started-at="2018-09-06T19:48:33Z" finished-at="2018-09-06T19:51:06Z">
+        </test-method> <!-- L4 -->
+        <test-method status="PASS" signature="L5()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L5" duration-ms="16921" started-at="2018-09-08T16:44:59Z" finished-at="2018-09-08T16:45:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R4 -->
-        <test-method status="PASS" signature="R5()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R5" duration-ms="48682" started-at="2018-09-06T19:51:06Z" finished-at="2018-09-06T19:51:54Z">
+        </test-method> <!-- L5 -->
+        <test-method status="PASS" signature="L2()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L2" duration-ms="15888" started-at="2018-09-08T16:45:16Z" finished-at="2018-09-08T16:45:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R5 -->
-        <test-method status="PASS" signature="R7()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R7" duration-ms="20970" started-at="2018-09-06T19:51:54Z" finished-at="2018-09-06T19:52:15Z">
+        </test-method> <!-- L2 -->
+        <test-method status="PASS" signature="L3()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L3" duration-ms="14972" started-at="2018-09-08T16:45:31Z" finished-at="2018-09-08T16:45:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R7 -->
-        <test-method status="PASS" signature="R8()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R8" duration-ms="16472" started-at="2018-09-06T19:52:15Z" finished-at="2018-09-06T19:52:32Z">
+        </test-method> <!-- L3 -->
+        <test-method status="PASS" signature="L6()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L6" duration-ms="16230" started-at="2018-09-08T16:45:46Z" finished-at="2018-09-08T16:46:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R8 -->
-        <test-method status="PASS" signature="R9()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="R9" duration-ms="77116" started-at="2018-09-06T19:52:32Z" finished-at="2018-09-06T19:53:49Z">
+        </test-method> <!-- L6 -->
+        <test-method status="PASS" signature="L7()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L7" duration-ms="15528" started-at="2018-09-08T16:46:03Z" finished-at="2018-09-08T16:46:18Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- R9 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test_Zoom2u.Registration_test@d56d67]" name="afterTest" is-config="true" duration-ms="14484" started-at="2018-09-06T19:53:49Z" finished-at="2018-09-06T19:54:03Z">
+        </test-method> <!-- L7 -->
+        <test-method status="PASS" signature="L9()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="L9" duration-ms="16054" started-at="2018-09-08T16:46:18Z" finished-at="2018-09-08T16:46:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L9 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test_Zoom2u.Login_test@d25987]" name="afterTest" is-config="true" duration-ms="1409" started-at="2018-09-08T16:46:34Z" finished-at="2018-09-08T16:46:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- Test_Zoom2u.Registration_test -->
+      </class> <!-- Test_Zoom2u.Login_test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
