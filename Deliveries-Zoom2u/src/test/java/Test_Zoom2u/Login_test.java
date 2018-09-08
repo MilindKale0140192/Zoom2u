@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 public class Login_test extends LaunchBrowser{
-   LaunchBrowser_inCrossBrowser obj1=new LaunchBrowser_inCrossBrowser();
+   //LaunchBrowser_inCrossBrowser obj1=new LaunchBrowser_inCrossBrowser();
    static Loginscenarios obj2=new Loginscenarios();
    
    @Test (priority=2)
