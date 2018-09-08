@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="112836" started-at="2018-09-08T14:54:40Z" finished-at="2018-09-08T14:56:33Z">
+  <suite name="Default suite" duration-ms="119393" started-at="2018-09-08T15:26:25Z" finished-at="2018-09-08T15:28:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="112836" started-at="2018-09-08T14:54:40Z" finished-at="2018-09-08T14:56:33Z">
+    <test name="Default test" duration-ms="119393" started-at="2018-09-08T15:26:25Z" finished-at="2018-09-08T15:28:25Z">
       <class name="Test_Zoom2u.Login_test">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="beforeTest" is-config="true" duration-ms="28816" started-at="2018-09-08T20:24:40Z" finished-at="2018-09-08T20:25:09Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="beforeTest" is-config="true" duration-ms="31471" started-at="2018-09-08T20:56:25Z" finished-at="2018-09-08T20:56:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="L8()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L8" duration-ms="50" started-at="2018-09-08T20:25:09Z" finished-at="2018-09-08T20:25:09Z">
+        <test-method status="PASS" signature="L8()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L8" duration-ms="51" started-at="2018-09-08T20:56:57Z" finished-at="2018-09-08T20:56:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L8 -->
-        <test-method status="PASS" signature="L1()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L1" duration-ms="15433" started-at="2018-09-08T20:25:09Z" finished-at="2018-09-08T20:25:24Z">
+        <test-method status="PASS" signature="L1()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L1" duration-ms="15317" started-at="2018-09-08T20:56:57Z" finished-at="2018-09-08T20:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L1 -->
-        <test-method status="PASS" signature="L4()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L4" duration-ms="3551" started-at="2018-09-08T20:25:24Z" finished-at="2018-09-08T20:25:28Z">
+        <test-method status="PASS" signature="L4()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L4" duration-ms="4626" started-at="2018-09-08T20:57:12Z" finished-at="2018-09-08T20:57:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L4 -->
-        <test-method status="PASS" signature="L5()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L5" duration-ms="10252" started-at="2018-09-08T20:25:28Z" finished-at="2018-09-08T20:25:38Z">
+        <test-method status="PASS" signature="L5()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L5" duration-ms="10331" started-at="2018-09-08T20:57:17Z" finished-at="2018-09-08T20:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L5 -->
-        <test-method status="PASS" signature="L2()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L2" duration-ms="10485" started-at="2018-09-08T20:25:38Z" finished-at="2018-09-08T20:25:48Z">
+        <test-method status="PASS" signature="L2()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L2" duration-ms="10469" started-at="2018-09-08T20:57:27Z" finished-at="2018-09-08T20:57:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L2 -->
-        <test-method status="PASS" signature="L3()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L3" duration-ms="5369" started-at="2018-09-08T20:25:48Z" finished-at="2018-09-08T20:25:54Z">
+        <test-method status="PASS" signature="L3()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L3" duration-ms="8315" started-at="2018-09-08T20:57:37Z" finished-at="2018-09-08T20:57:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L3 -->
-        <test-method status="PASS" signature="L6()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L6" duration-ms="12338" started-at="2018-09-08T20:25:54Z" finished-at="2018-09-08T20:26:06Z">
+        <test-method status="PASS" signature="L6()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L6" duration-ms="13280" started-at="2018-09-08T20:57:46Z" finished-at="2018-09-08T20:57:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L6 -->
-        <test-method status="PASS" signature="L7()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L7" duration-ms="15275" started-at="2018-09-08T20:26:06Z" finished-at="2018-09-08T20:26:21Z">
+        <test-method status="PASS" signature="L7()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L7" duration-ms="14402" started-at="2018-09-08T20:57:59Z" finished-at="2018-09-08T20:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L7 -->
-        <test-method status="PASS" signature="L9()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L9" duration-ms="10546" started-at="2018-09-08T20:26:21Z" finished-at="2018-09-08T20:26:32Z">
+        <test-method status="PASS" signature="L9()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="L9" duration-ms="10488" started-at="2018-09-08T20:58:13Z" finished-at="2018-09-08T20:58:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- L9 -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="afterTest" is-config="true" duration-ms="693" started-at="2018-09-08T20:26:32Z" finished-at="2018-09-08T20:26:33Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Test_Zoom2u.Login_test@1774679]" name="afterTest" is-config="true" duration-ms="623" started-at="2018-09-08T20:58:24Z" finished-at="2018-09-08T20:58:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
