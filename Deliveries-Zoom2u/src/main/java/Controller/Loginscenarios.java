@@ -18,7 +18,7 @@ public class Loginscenarios extends LaunchBrowser {
       URL_Staging url=new URL_Staging();
       LoginMessages LoginmessagesDisplay = new LoginMessages();
      // WebElement element;
-	  public static void loginwithvalidcredentials(String email, String password) throws InterruptedException {
+	  public void loginwithvalidcredentials(String email, String password) throws InterruptedException {
 		  
 		  System.out.println("...........................................................................................................");
 		  System.out.println("L1 :Login with valid credentials 1st test case Starting........");
@@ -42,7 +42,7 @@ public class Loginscenarios extends LaunchBrowser {
 		  System.out.println("L4:Login with invalid username/pwd 4th test case starting.....");
 		 WebElement element;
 		  driver.navigate().refresh();
-		  element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.focusloginpage())));
+		  element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.emaillocator())));
 		  driver.findElement(By.xpath(obj.emaillocator())).sendKeys(email);
 		  driver.findElement(By.xpath(obj.pwdlocator())).sendKeys(password);
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
@@ -64,7 +64,8 @@ public class Loginscenarios extends LaunchBrowser {
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
 		  Thread.sleep(10000);
 		  WebElement emailvalidation=driver.findElement(By.xpath(obj.emailvalidation()));
-		  String Actualemailvalidation=emailvalidation.getText();   
+		  String Actualemailvalidation=emailvalidation.getText();  
+		  Thread.sleep(10000);
 		  Assert.assertEquals(Actualemailvalidation, "Please enter a valid email.");
 		  WebElement passwordvalidation=driver.findElement(By.xpath(obj.passwordvalidation()));
 		  String Actualpasswordvalidation=passwordvalidation.getText();
