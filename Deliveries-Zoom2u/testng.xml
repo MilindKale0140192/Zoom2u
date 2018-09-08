@@ -4,8 +4,8 @@
   <test thread-count="3" name="Test" parallel="methods" >
     <classes>
       <class name="Test_Zoom2u.Login_test"/>
-      <class name="Test_Zoom2u.Registration_test"/>
-      <class name="Test_Zoom2u.ForgotPwd_test"/>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
