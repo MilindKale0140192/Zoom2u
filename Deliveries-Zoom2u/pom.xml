@@ -88,6 +88,8 @@
         <suiteXmlFile>
         testng.xml
         </suiteXmlFile>
+        <suiteXmlFile>testng_Reg.xml</suiteXmlFile>
+        <suiteXmlFile>testng_FP.xml</suiteXmlFile>
         </suiteXmlFiles>
         <testFailureIgnore>false</testFailureIgnore>
                     <systemProperties>
