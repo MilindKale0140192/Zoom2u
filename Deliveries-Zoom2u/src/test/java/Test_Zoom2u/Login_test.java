@@ -16,33 +16,33 @@ import org.testng.annotations.BeforeTest;
 
 public class Login_test extends LaunchBrowser{
    //LaunchBrowser_inCrossBrowser obj1=new LaunchBrowser_inCrossBrowser();
-   static Loginscenarios obj2=new Loginscenarios();
+   Loginscenarios obj2=new Loginscenarios();
    
    @Test (priority=2)
-  public static void L1() throws InterruptedException{
+  public void L1() throws InterruptedException{
     
 	 obj2.loginwithvalidcredentials("keenal0904@gmail.com","123456");
 	
 	}
 	
 	@Test (priority=3)
-	public static void L4() throws InterruptedException{
+	public void L4() throws InterruptedException{
 		obj2.loginwithinvalidcredentials("miiind@gmail.com", "1234567");
 	}
 	
 	@Test (priority=4)
-	public static void L5() throws InterruptedException{
+	public void L5() throws InterruptedException{
 		obj2.loginwithoutcredentials();
 	}
 	
 	@Test (priority=5)
-	public static void L2() throws InterruptedException{
+	public void L2() throws InterruptedException{
 		
 		obj2.loginwithinvalidpassword("keenal0904@gmail.com", "123456789");
 	}
 	
 	@Test (priority=6)
-	public static void L3() throws InterruptedException{
+	public void L3() throws InterruptedException{
 		System.out.println("...........................................................................................................");
 		System.out.println("Login with invalid username and valid pwd 3rd test case starting.........");
 		obj2.loginwithinvalidcredentials("milindff@gmail.com", "123456");
@@ -51,24 +51,24 @@ public class Login_test extends LaunchBrowser{
 	}
 	
 	@Test (priority=7)
-	public static void L6() throws InterruptedException{
+	public void L6() throws InterruptedException{
 		obj2.MaskedPwdfield();
 		
 	}
 	
 	@Test (priority=8)
-    public static void L7() throws InterruptedException{
+    public void L7() throws InterruptedException{
 		obj2.redirectTosameloginurlOnRefresh();
 	}
 	
 	@Test (priority=1)
-	public static void L8() throws InterruptedException 
+	public void L8() throws InterruptedException 
 	{
 		obj2.focusonloginsection();
 	}
 	
 	@Test (priority=9)
-	public static void L9() throws InterruptedException 
+	public void L9() throws InterruptedException 
 	{
 		obj2.verifydisableaccounttext("testcustomer03@gmail.com", "123456");
 	}

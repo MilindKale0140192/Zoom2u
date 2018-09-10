@@ -14,7 +14,7 @@ import DeliveriesMessages.LoginMessages;
 
 public class Loginscenarios extends LaunchBrowser {
     
-      static Login obj=new Login();
+      Login obj=new Login();
       URL_Staging url=new URL_Staging();
       LoginMessages LoginmessagesDisplay = new LoginMessages();
      // WebElement element;
