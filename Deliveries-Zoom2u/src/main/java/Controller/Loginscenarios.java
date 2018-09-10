@@ -22,6 +22,7 @@ public class Loginscenarios extends LaunchBrowser {
 		  
 		  System.out.println("...........................................................................................................");
 		  System.out.println("L1 :Login with valid credentials 1st test case Starting........");
+		  Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.emaillocator())));
 		  driver.findElement(By.xpath(obj.emaillocator())).sendKeys(email);
 		  driver.findElement(By.xpath(obj.pwdlocator())).sendKeys(password);
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
