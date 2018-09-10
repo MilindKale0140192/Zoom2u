@@ -31,7 +31,7 @@ public class Loginscenarios extends LaunchBrowser {
 		  //Thread.sleep(10000);
 		  //((JavascriptExecutor) driver)
 		    // .executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		  //Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.logoutlocator())));
+		  Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.logoutlocator())));
           driver.findElement(By.xpath(obj.logoutlocator())).click();
 		 /* if(browser=="Firefox"){
 			  Thread.sleep(10000);
