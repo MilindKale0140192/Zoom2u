@@ -11,6 +11,7 @@ import CommonLibraries.Login;
 import CommonLibraries.Registration;
 import CommonLibraries.URL_Staging;
 import DeliveriesMessages.LoginMessages;
+import org.openqa.selenium.JavascriptExecutor;
 
 public class Loginscenarios extends LaunchBrowser {
     
@@ -28,6 +29,8 @@ public class Loginscenarios extends LaunchBrowser {
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
 		  System.out.println("L1:Login Success");
 		  Thread.sleep(10000);
+		  ((JavascriptExecutor) driver)
+		     .executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		  Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.logoutlocator())));
           driver.findElement(By.xpath(obj.logoutlocator())).click();
 		 /* if(browser=="Firefox"){
