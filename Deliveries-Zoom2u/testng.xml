@@ -4,8 +4,9 @@
   <test thread-count="5" name="Test" parallel="false" preserve-order="true">
     <classes>
       <class name="Test_Zoom2u.Login_test"/> 
+       <class name="Test_Zoom2u.ForgotPwd_test"></class>
       <class name="Test_Zoom2u.Registration_test"></class>
-      <class name="Test_Zoom2u.ForgotPwd_test"></class>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
