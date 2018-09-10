@@ -89,6 +89,13 @@
         testng.xml
         </suiteXmlFile>
         </suiteXmlFiles>
+        <testFailureIgnore>false</testFailureIgnore>
+                    <systemProperties>
+                        <property>
+                            <name>listener</name>
+                            <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
+                        </property>
+                    </systemProperties>
         </configuration>
  </plugin>
 </plugins>
