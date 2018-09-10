@@ -27,7 +27,7 @@ public class Loginscenarios extends LaunchBrowser {
 		  driver.findElement(By.xpath(obj.pwdlocator())).sendKeys(password);
 		  driver.findElement(By.xpath(obj.loginbtnlocator())).click();
 		  System.out.println("L1:Login Success");
-		  //Thread.sleep(10000);
+		  Thread.sleep(10000);
 		  Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(obj.logoutlocator())));
           driver.findElement(By.xpath(obj.logoutlocator())).click();
 		 /* if(browser=="Firefox"){

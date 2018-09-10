@@ -5,7 +5,7 @@ public class Login {
 	
 	public String driverpath(){
 		
-		String driverpath="D:\\Milind\\GitRepository\\Driver";
+		String driverpath="C:\\Program Files\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib";
 		return driverpath;
 		
 	}

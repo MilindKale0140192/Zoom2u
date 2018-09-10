@@ -11,7 +11,7 @@ public class Driverwaitclass extends LaunchBrowser {
 	
 	public static WebDriverWait Driverwait(){
 		
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 50);
 		return wait;
 	}
 }
