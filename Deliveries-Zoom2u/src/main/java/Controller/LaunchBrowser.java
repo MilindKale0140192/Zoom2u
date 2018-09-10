@@ -21,12 +21,12 @@ public class LaunchBrowser extends DriverClass {
 	{
 		
 		 System.out.println("launching chrome browser");
-		   //System.setProperty("webdriver.chrome.driver",obj1.driverpath() + "\\chromedriver.exe");
-		   //driver=new ChromeDriver();
-		 DesiredCapabilities capability = DesiredCapabilities.chrome();
-		 WebDriver driver = new RemoteWebDriver(new URL("http://localhost:8080/wd/hub"), capability);
-	        driver.get(obj1.url("https://deliveries.zoom2u.com"));
-		 String page = driver.getPageSource();
+		   System.setProperty("webdriver.chrome.driver",obj1.driverpath() + "\\chromedriver.exe");
+		   driver=new ChromeDriver();
+		 //DesiredCapabilities capability = DesiredCapabilities.chrome();
+		//WebDriver driver = new RemoteWebDriver(new URL("http://localhost:8080:4444/wd/hub"), capability);
+	     driver.get(obj1.url("https://deliveries.zoom2u.com"));
+		 //String page = driver.getPageSource();
 		   driver.manage().timeouts().implicitlyWait(3600, TimeUnit.SECONDS);
 	        
 	        
