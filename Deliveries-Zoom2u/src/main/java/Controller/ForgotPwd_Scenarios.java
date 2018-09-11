@@ -60,10 +60,11 @@ public class ForgotPwd_Scenarios extends LaunchBrowser{
 		System.out.println("...........................................................................................................");
 	}
 	
-	public void Loginherebtn_ForgotPwd(){
+	public void Loginherebtn_ForgotPwd() throws InterruptedException{
 		System.out.println("...........................................................................................................");
 		System.out.println("FP3:Login here button should work and redirect to login page test case is starting (7th Forgot Pwd test case).....");
 		driver.findElement(By.xpath(forgotpwdlocobj.Loginherelocator_ForgotPwd())).click();
+		Thread.sleep(10000);
 		String currentURl_AfterLoginherebtn=driver.getCurrentUrl();
 		System.out.println(currentURl_AfterLoginherebtn);
 		Assert.assertEquals(currentURl_AfterLoginherebtn, urlobj.Login_url());

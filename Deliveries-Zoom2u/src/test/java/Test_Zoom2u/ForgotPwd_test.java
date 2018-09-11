@@ -24,7 +24,7 @@ public class ForgotPwd_test extends ForgotPwd_Scenarios {
   }
   
   @Test (priority=20)
-  public void FP3(){
+  public void FP3() throws InterruptedException{
 	  
 	  Loginherebtn_ForgotPwd();
   }
