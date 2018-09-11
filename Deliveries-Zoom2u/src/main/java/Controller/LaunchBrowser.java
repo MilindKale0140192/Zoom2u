@@ -39,7 +39,7 @@ public class LaunchBrowser extends DriverClass {
 	
 	 public static void driverclose(){
 	    	
-	    	driver.close();
+	    	driver.quit();
 	    }
 	    
 }
