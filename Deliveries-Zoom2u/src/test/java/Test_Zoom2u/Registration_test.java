@@ -10,6 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 
 public class Registration_test extends RegistrationScenarios{
+	
   @Test (priority=10)
   public void R1() throws InterruptedException {
 	  
@@ -75,6 +76,7 @@ public class Registration_test extends RegistrationScenarios{
 		 //LaunchBrowser_inCro ssBrowser.OpenBrowser("Internet Explorer", "11", "Windows 7 64-bit", "RegistrationModule_Test");
   }
 
+  
   @AfterTest
   public void afterTest() throws InterruptedException {
 	  
@@ -84,5 +86,6 @@ public class Registration_test extends RegistrationScenarios{
 	  driverclose();
 	 
   }
+
 
 }

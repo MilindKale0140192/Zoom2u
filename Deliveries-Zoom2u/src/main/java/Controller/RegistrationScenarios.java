@@ -323,7 +323,8 @@ public class RegistrationScenarios extends LaunchBrowser{
 		element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(menuobj.MyProfileLocator())));
 		driver.findElement(By.xpath(menuobj.MyProfileLocator())).click();
 		element = Driverwaitclass.Driverwait().until(ExpectedConditions.elementToBeClickable(By.xpath(Myprofileobj.FNamefieldLocator())));
-	    String FNamefield=driver.findElement(By.xpath(Myprofileobj.FNamefieldLocator())).getAttribute("value");
+	    Thread.sleep(10000);
+		String FNamefield=driver.findElement(By.xpath(Myprofileobj.FNamefieldLocator())).getAttribute("value");
 		System.out.println(FNamefield);
 		Assert.assertEquals(FNamefield, Fname );
 		String LNamefield=driver.findElement(By.xpath(Myprofileobj.LNamefieldLocator())).getAttribute("value");

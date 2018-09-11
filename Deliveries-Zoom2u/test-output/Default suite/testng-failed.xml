@@ -3,21 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test_Zoom2u.Login_test">
+      <class name="Test_Zoom2u.Registration_test">
         <methods>
-          <include name="L3"/>
-          <include name="L2"/>
-          <include name="L1"/>
-          <include name="L8"/>
-          <include name="L4"/>
-          <include name="afterTest"/>
-          <include name="L9"/>
-          <include name="L7"/>
-          <include name="L6"/>
-          <include name="L5"/>
+          <include name="R9"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- Test_Zoom2u.Login_test -->
+      </class> <!-- Test_Zoom2u.Registration_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
