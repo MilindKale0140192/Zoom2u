@@ -5,10 +5,11 @@
     <classes>
       <class name="Test_Zoom2u.ForgotPwd_test">
         <methods>
+          <include name="FP1"/>
           <include name="FP7"/>
           <include name="FP9"/>
           <include name="FP6"/>
-          <include name="afterTest"/>
+          <include name="FP3"/>
           <include name="FP8"/>
           <include name="beforeTest"/>
           <include name="FP5"/>
