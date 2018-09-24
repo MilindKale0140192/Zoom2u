@@ -5,8 +5,8 @@ public class Login {
 	
 	public String driverpath(){
 		
-		//String driverpath="C:\\Program Files (x86)\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib";
-		String driverpath="C:\\Program Files\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib";
+		String driverpath="C:\\Program Files (x86)\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib";
+		//String driverpath="C:\\Program Files\\Jenkins\\plugins\\chromedriver\\WEB-INF\\lib";
 		return driverpath;
 		
 	}
