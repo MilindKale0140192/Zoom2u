@@ -79,14 +79,21 @@ public class ForgotPwd_Scenarios extends LaunchBrowser{
 		driver.findElement(By.xpath(forgotpwdlocobj.Emailfield_ForgotPwdLocator())).sendKeys(InvalidEmail_ForgotPwd);
 		driver.findElement(By.xpath(forgotpwdlocobj.ResetBtnLocator_ForgotPwd())).click();
 		Thread.sleep(10000);
-		WebElement errormsg_Invalidmsg=driver.findElement(By.xpath(forgotpwdlocobj.NotRegisteredEmailValidLocator_ForgotPwd()));
+		/*WebElement errormsg_Invalidmsg=driver.findElement(By.xpath(forgotpwdlocobj.NotRegisteredEmailValidLocator_ForgotPwd()));
 		String ErrorMessage_InvalidEmail=errormsg_Invalidmsg.getText();
 		System.out.println(ErrorMessage_InvalidEmail);
 		WebElement Errormsg_Invalidmsg1=driver.findElement(By.xpath(forgotpwdlocobj.NotRegisteredEmailValidotherLocator_ForgotPwd()));
 		String ErrorMessage_InvalidEmail1=Errormsg_Invalidmsg1.getText();
 		System.out.println(ErrorMessage_InvalidEmail1);
 		String ErrorMessage_InvalidEmail2=ErrorMessage_InvalidEmail+ " " + ErrorMessage_InvalidEmail1;
-		Assert.assertEquals(ErrorMessage_InvalidEmail2, forgotpwdmsgobj.ErrorMessageforNotRegisteredEmail());
+		Assert.assertEquals(ErrorMessage_InvalidEmail2, forgotpwdmsgobj.SuccessMessagepart1() + " " + InvalidEmail_ForgotPwd + " " + forgotpwdmsgobj.SuccessMessagepart2());
+		Thread.sleep(10000);*/
+         String forgotpwdlocators =driver.findElement(By.xpath(forgotpwdlocobj.ResetMessage_Locator())).getText();
+		
+		System.out.println(forgotpwdlocators);
+		Assert.assertEquals(forgotpwdlocators, forgotpwdmsgobj.SuccessMessagepart1() + " " + InvalidEmail_ForgotPwd + " " + forgotpwdmsgobj.SuccessMessagepart2());
+		driver.findElement(By.xpath(forgotpwdlocobj.Loginherelocator_ForgotPwd())).click();
+		driver.findElement(By.xpath(forgotpwdlocobj.ForgotyourPwdlink())).click();
 		System.out.println("FP4:Invalid Email msg verify is test case completed (3rd Forgot pwd test case)");
 		System.out.println("...........................................................................................................");
 		}

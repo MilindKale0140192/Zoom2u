@@ -12,16 +12,16 @@ public class ForgotPassword {
 	
 	public String SuccessMessagepart2(){
 		
-		String Messagepart2="to reset your password so check your inbox and follow the link.";
+		String Messagepart2="with further instructions.";
 		return Messagepart2;
 	}
-	
+	/*
 	public String ErrorMessageforNotRegisteredEmail(){
 		
 		String ErrorMessagefornotRegistered="No account found with the entered email address. Enter your email and we'll send you a link to reset your password.";
 		return ErrorMessagefornotRegistered;
 	}
-	
+	*/
 	public String ErrorMessageforInvalidorEmptyString(){
 		
 		String ErrorMessageforInvalidorEmptyString="Please enter registered email.";
