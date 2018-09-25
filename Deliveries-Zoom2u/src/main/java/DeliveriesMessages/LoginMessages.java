@@ -4,7 +4,7 @@ public class LoginMessages {
 
 	public String NotRegisteredEmailValidation(){
 		
-		String NotRegisteredEmailValidationmessage="Email address does not exist. Please try again, or contact us on 1300 ZOOM2U(1300 966 628).";
+		String NotRegisteredEmailValidationmessage="Username/password combination is incorrect. Check for spelling errors, spaces in email/password, or automatic capitalisation.";
 		return NotRegisteredEmailValidationmessage;
 	}
 	

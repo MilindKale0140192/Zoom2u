@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeTest;
 public class Login_test extends LaunchBrowser{
    //LaunchBrowser_inCrossBrowser obj1=new LaunchBrowser_inCrossBrowser();
    Loginscenarios obj2=new Loginscenarios();
-   
+  
    @Test (priority=2)
   public void L1() throws InterruptedException{
     
@@ -58,7 +58,7 @@ public class Login_test extends LaunchBrowser{
 		// Thread.sleep(10000);
 
 	}
-	
+	/*
 	@Test (priority=7)
 	public void L6() throws InterruptedException{
 		obj2.MaskedPwdfield();
@@ -86,7 +86,7 @@ public class Login_test extends LaunchBrowser{
 		obj2.verifydisableaccounttext("testcustomer03@gmail.com", "123456");
 		 //Thread.sleep(10000);
 }
-	
+	*/
 	
   @BeforeTest
   public void beforeTest() throws Exception {

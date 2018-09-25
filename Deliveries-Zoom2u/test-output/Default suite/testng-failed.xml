@@ -3,20 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Test_Zoom2u.ForgotPwd_test">
+      <class name="Test_Zoom2u.Login_test">
         <methods>
-          <include name="FP1"/>
-          <include name="FP7"/>
-          <include name="FP9"/>
-          <include name="FP6"/>
-          <include name="FP3"/>
-          <include name="FP8"/>
+          <include name="L3"/>
           <include name="beforeTest"/>
-          <include name="FP5"/>
-          <include name="FP2"/>
-          <include name="FP4"/>
         </methods>
-      </class> <!-- Test_Zoom2u.ForgotPwd_test -->
+      </class> <!-- Test_Zoom2u.Login_test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
